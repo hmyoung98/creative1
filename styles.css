@@ -22,6 +22,16 @@
 	color:lightgray;
 }
 
+.home {
+	display:block;
+	color:white;
+}
+
+.home:hover {
+	text-decoration:none;
+	color:lightgray;
+}
+
 .content {
 	min-height:600px;
         background-color:darkcyan;
@@ -31,8 +41,52 @@
 
 p {
 	font-family: 'Vollkorn', serif;
-	color:white;
+	color:whitesmoke;
+	padding-top:10px;
+	max-width:890px;
+	margin-left:auto;
+	margin-right:auto;
 }
+
+hr {
+	background-color:whitesmoke;
+}
+
+img {
+	padding:50px;
+	max-width:890px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.sketch {
+	max-width:500px;
+	height:auto;
+	display:block;
+	margin-left:auto;
+}
+
+.drawing {
+	width:100%;
+	height:auto;
+	display:block;
+	margin-left:auto;
+}
+
+.caption {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 
 .footer {
 	background-color:343A40;
